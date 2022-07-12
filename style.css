@@ -126,7 +126,7 @@ label {
 }
 
 input {
-    padding-right: 100px;
+    width: 20vw;
     height: 30px;
     font-family: 'Lato', sans-serif;
     font-size: .25rem;
@@ -184,4 +184,8 @@ a {
     gap: 50px;
     margin-top: auto;
     margin-bottom: 20px;
+}
+
+input:focus {
+    border: 4px solid #5C6C1C;
 }
