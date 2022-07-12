@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="style.css">
-    <!-- IBM Plex Serif Font API -->
+    <!-- Lato Font API -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- Smokum Font API -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,42 +21,55 @@
             <img src="media/cactuslogo.png" alt="cactus">
             <h1>Saguaro</h1>
         </div>
-        <div class="credits">
-            <p>Photo by <a href="https://unsplash.com/@merittthomas">Meritt Thomas</a> on <a href="https://unsplash.com/">Unsplash</a></p>
-            <p>Logo by <a href="https://www.flaticon.com/authors/juicy-fish">juicy_fish</a> on <a href="https://www.flaticon.com/">FlatIcon</a></p>
-        </div>
     </header>
     <section>
         <div class="info">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started</p>
-            <p class="special">You <i>know</i> you want to.</p>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+            <p>You know you want to.</p>
         </div>
         <form>
-            <h2>Let's do this!</h2>
-            <label for="first-name">First Name</label>
-            <input id="first-name" name="firstName">
-
-            <label for="last-name">Last Name</label>
-            <input id="last-name" name="lastName">
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-
-            <label for="phone-number">Phone Number</label>
-            <input id="phone-number" name="phoneNumber">
-
-            <label for="password">Password</label>
-            <input id="password" name="password">
-
-            <label for="confirm-password">Confirm Password</label>
-            <input id="confirm-password" name="confirmPassword">
-
-            <div class="normal-bg">
+            <fieldset>
+                <h2>Let's do this!</h2>
+                <div class="top-row">
+                    <div class="box">
+                        <label for="first-name">First Name</label>
+                        <input id="first-name" name="firstName">
+                    </div>
+                    <div class="box">
+                        <label for="last-name">Last Name</label>
+                        <input id="last-name" name="lastName">
+                    </div>
+                </div>
+                <div class="middle-row">
+                    <div class="box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="box">
+                        <label for="phone-number">Phone Number</label>
+                        <input id="phone-number" name="phoneNumber">
+                    </div>
+                </div>
+                <div class="bottom-row">
+                    <div class="box">
+                        <label for="password">Password</label>
+                        <input id="password" name="password">
+                    </div>
+                    <div class="box">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input id="confirm-password" name="confirmPassword">
+                    </div>
+                </div>
+            </fieldset>
+            <div class="submit">
                 <button type="submit">Create Account</button>
                 <p>Already have an account? <a href="index.html">Log in</a></p>
             </div>
         </form>
+        <div class="credits">
+            <p>Photo by <a href="https://unsplash.com/@merittthomas">Meritt Thomas</a> on Unsplash</p>
+            <p>Logo by <a href="https://www.flaticon.com/authors/juicy-fish">juicy_fish</a> on FlatIcon</p>
+        </div>
     </section>
-    
 </body>
 </html>
